@@ -1,0 +1,27 @@
+quick_summary_prompt: |
+  Use the get youtube video transcript tool to fetch the transcript for {video_url}
+  Then provide a quick 30-second summary with
+  - Main topic (1 sentence)
+  - 3-4 key points
+  - Who should watch this video
+  - Estimated value for time investment
+
+detailed_summary_prompt: | 
+  Use the get youtube video transcript tool to fetch the transcript for {video_url}
+  Then provide a detailed 2-3 minute summary with
+  - Executive summary (2-3 sentences)
+  - Main sections/chapters with key insights
+  - Notable quotes or examples
+  - Prerequisites or assumed knowledge
+  - What you'll learn by watching this video
+
+structured_notes_prompt: | 
+  Use the get youtube video transcript tool to fetch the transcript for {video_url}
+  Then create comprehensive structured notes in markdown format with
+  - Video metadata (title, channel, duration)
+  - Table of contents with timestamps
+  - Detailed breakdown by section
+  - All sources, references, links, and tools mentioned
+  - Key concepts with definitions
+  - Action items or recommendations
+  - Format for easy addition to a knowledge base
