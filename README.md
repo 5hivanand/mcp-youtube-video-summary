@@ -23,7 +23,7 @@ A Model Context Protocol (MCP) server that fetches YouTube video transcripts and
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd Youtube-Video-Summary
+cd mcp-youtube-video-summary
 ```
 
 2. Install dependencies:
